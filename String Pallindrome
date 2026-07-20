@@ -1,0 +1,6 @@
+s=input("Enter a string").lower()  
+reverse=s[::-1].lower()
+if s==reverse:
+    print("Pallindrome")
+else:
+    print("No")
