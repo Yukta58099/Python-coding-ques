@@ -5,3 +5,15 @@ if s1==reverse:
     print("Pallindrome")
 else:
     print("No")
+
+s=int(input("Enter a integer")) --Integer reverse
+num=s
+rev=0
+while s!=0:
+    t=s%10
+    rev=rev*10+t
+    s=s//10
+if rev==num:
+    print("Pallindrome")
+else:
+    print("Not")
