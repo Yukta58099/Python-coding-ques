@@ -1,0 +1,13 @@
+s=input("Enter a string")  --Slicing
+reverse=s[::-1]
+print(reverse)
+
+s=input("Enter a string")  --Reversed function
+r="".join(reversed(s))
+print(r)
+
+s=input("Enter a string")  --for function
+s1=''
+for i in range(len(s)-1,-1,-1):
+    s1+=s[i]
+print(s1)
