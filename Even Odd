@@ -1,0 +1,45 @@
+num=int(input("Enter a number"))-- Even/Odd number
+if num%2==0:
+    print("Even")
+else:
+    print("Odd")
+
+
+list=[1,2,3,4,5,6,7]-- Array
+l=[]
+l1=[]
+for i in range(0,len(list)):
+    if list[i]%2==0:
+        l.append(list[i])
+    else:
+        l1.append(list[i])
+print(l)
+print(l1)
+
+
+list=[1,2,3,4,5,6,7]--For in a different way
+l=[]
+l1=[]
+for i in list:
+    if i%2==0:
+        l.append(i)
+    else:
+        l1.append(i)
+print(l)
+print(l1)
+
+
+
+a=int(input("Enter a number"))-- input of list   
+list=[]
+for i in range(0,a):
+    list.append(int(input()))
+l=[]
+l1=[]
+for i in list:
+    if i%2==0:
+        l.append(i)
+    else:
+        l1.append(i)
+print(l)
+print(l1)
