@@ -1,0 +1,11 @@
+n=int(input("Enter a number")) 
+a=n
+c=0
+while(n!=0):
+    t=n%10
+    c+=t*t*t
+    n=n//10
+if(a==c):
+    print("Armstrong")
+else:
+    print(" not Armstrong")
