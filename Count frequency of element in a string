@@ -1,0 +1,39 @@
+n=input("Enter a number")-Counting the frequency of letter
+c={}
+for i in n:
+    if i in c:
+        c[i]+=1
+    else:
+        c[i]=1
+print (c)
+
+n=input("Enter a number")-Counting the frequency of words
+c={}
+for i in n.split():
+    if i in c:
+        c[i]+=1
+    else:
+        c[i]=1
+print (c)
+
+
+from collections import Counter -- Counting the frequency of words using counter
+n=["yukta", "rahul", "yukta", "amit", "rahul", "yukta"]
+counts = Counter(n)
+print(counts)
+
+
+from collections import Counter  --Counting the frequency of letters using counter
+n=input("Enter a number")
+counts = Counter(n)
+print(counts)
+
+n=input("Enter a number") -- , se split
+c={}
+for i in n.split(','):
+    if i in c:
+        c[i]+=1
+    else:
+        c[i]=1
+print (c)
+    
