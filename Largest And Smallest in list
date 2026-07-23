@@ -6,3 +6,14 @@ s=max(l)
 print(s)
 
 s=min(l)
+
+
+n=int(input("Enter a number")) --without max/min
+l=[]
+for i in range(0,n):
+    l.append(int(input()))
+s=l[0]
+for i in l:
+    if s>i:
+        s=i
+print(s)
