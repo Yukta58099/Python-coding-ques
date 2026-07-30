@@ -1,7 +1,7 @@
 Two strings are anagrams if they contain the same characters with the same frequency, but possibly in a different order.
 
 Sort works only on the list
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 s=input().lower()
 s1=input().lower()
 if sorted(s) == sorted(s1):
