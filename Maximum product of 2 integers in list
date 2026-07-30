@@ -1,0 +1,19 @@
+n=int(input("Enter a number"))
+list=[]
+for i in range(0,n):
+    list.append(int(input()))
+list.sort(reverse=True)
+print(list[0]*list[1])
+
+
+n = int(input("Enter a number: "))--if the user enters less than 2 numbers
+lst = []
+
+for i in range(n):
+    lst.append(int(input()))
+
+if len(lst) >= 2:
+    lst.sort(reverse=True)
+    print(lst[0] * lst[1])
+else:
+    print("Enter at least 2 numbers")
