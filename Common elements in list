@@ -1,0 +1,14 @@
+list=[1,2,3,4,5]--Using for loop
+li=[6,7,5,3,8]
+l=[]
+for i in list:
+    if i in li:
+        l.append(i)
+print(l)
+
+
+l1=[1,2,3,4,5] --Using set
+l2=[6,7,5,3,8]
+
+l=list(set(l1) & set(l2))
+print(l)
