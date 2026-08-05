@@ -1,0 +1,17 @@
+sentence = "Python is a powerful programming language"--Using max function
+
+longest_word = max(sentence.split(), key=len)
+
+print("Longest word:", longest_word)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+sentence = input("Enter a sentence: ")--Using loop
+
+longest = ""
+
+for word in sentence.split():
+    if len(word) > len(longest):
+        longest = word
+
+print(longest)
