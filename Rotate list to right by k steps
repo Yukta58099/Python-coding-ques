@@ -1,0 +1,17 @@
+lst = [1, 2, 3, 4, 5]--Usimg slicing
+k = 2
+
+k = k % len(lst)  # handles k > length of list
+
+rotated = lst[-k:] + lst[:-k]
+
+print(rotated)
+
+lst = [1, 2, 3, 4, 5] --Using loop
+k = 2
+
+for i in range(k):
+    last = lst.pop()
+    lst.insert(0, last)
+
+print(lst)
