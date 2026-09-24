@@ -13,3 +13,6 @@ print(names)
 names = ["banana", "apple", "cherry", "mango"] --Using sorted function which returns a new sorted list.
 sorted_names = sorted(names)
 print(sorted_names)
+
+
+sort function is only used in list.
