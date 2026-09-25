@@ -9,3 +9,19 @@ if(a==c):
     print("Armstrong")
 else:
     print(" not Armstrong")
+
+
+n = int(input())-- for any number
+o = n
+digits = len(str(n))
+s = 0
+
+while n != 0:
+    t = n % 10
+    s += t ** digits
+    n = n // 10
+
+if o == s:
+    print("Armstrong")
+else:
+    print("Not")
