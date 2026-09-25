@@ -13,3 +13,5 @@ l2=[6,7,5,3,8]
 
 l=list(set(l1) & set(l2))
 print(l)
+
+the & operator in sets means intersection
